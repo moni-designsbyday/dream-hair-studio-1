@@ -1,0 +1,454 @@
+/* colours: 
+    Yellow- #E6C979
+    Grey- #707070
+    Black- #242424
+    Dark Dusty Pink- #8B5958
+    Light Dusty Pink- #EDE8E4
+ */
+
+ /* Google Font 
+ Rubrik (300, 400, 500, 600, 700, 800, 900)
+ Corinthia (400) 
+ */
+
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+}
+
+/* ----- Universal styles & utility classes ----- */
+
+.padded { padding:5%; }
+.padded-sm { padding: 1rem; }
+.padded-lg { padding: 10%;}
+
+/* ----- TYPOGRAPHY STYLES ----- */
+
+.font-weight-thin{ font-weight: 200;}
+.font-weight-regular{ font-weight: 400;}
+.font-weight-medium{ font-weight: 700;}
+.font-weight-extra-bold{ font-weight: 900;}
+
+.text-left  {text-align: left;}
+.text-center    {text-align: center;}
+.text-right {text-align: right;}
+
+.bg-center {background-position: center;}
+
+p:last-child {padding-bottom: 0;}
+h3:last-child { padding-bottom: 0;}
+h1:last-child {padding-bottom: 0;}
+h2:last-child {padding-bottom: 0;}
+a:last-child {padding-bottom: 0;}
+
+/* ----- MIN HEIGHT ----- */
+
+.tall-10{min-height: 10vh;}
+.tall-20{min-height: 20vh;}
+.tall-30{min-height: 30vh;}
+.tall-40{min-height: 40vh;}
+.tall-50{min-height: 50vh;}
+.tall-60{min-height: 60vh;}
+.tall-70{min-height: 70vh;}
+.tall-80{min-height: 80vh;}
+.tall-90{min-height: 90vh;}
+.tall-100{min-height: 100vh;}
+
+/* ----- COLORS ----- */
+
+.bg-yellow {background-color: #E6C979;}
+.bg-grey {background-color: #707070;}
+.bg-dark-pink {background-color: #8B5958;}
+.bg-light-pink {background-color: #EDE8E4;}
+.bg-dark {background-color: #242424;}
+.bg-white {background-color: white;}
+
+h1, h2{
+    font-family: 'Corinthia', cursive;
+    font-weight:400
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+p, li, a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ---------------- IMAGE ---------------- */
+
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1633681926035-ec1ac984418a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80);
+    background-color: rgb(36, 36, 36, .4);
+    background-blend-mode: multiply;
+    min-height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------- Menu Bar ---------------- */
+
+.icons {
+    color: #EDE8E4;
+    text-align: right;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* ----- HEADER ----- */
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    transform: translate(-43px, -66px) matrix(1,0,0,1,-17,127) rotate(-90deg);
+    transform-origin: center;
+    left: 35px;
+    top: 70px;
+    position: absolute;
+    overflow: visible;
+    width: 158px;
+    height: 35px;
+    white-space: nowrap;
+}
+
+.services {
+    transform: translate(-43px, -66px) matrix(1,0,0,1,-57.5,384.5) rotate(-90deg);
+    transform-origin: center;
+    left: 35px;
+    top: 70px;
+    position: absolute;
+    overflow: visible;
+    width: 237px;
+    height: 35px;
+    white-space: nowrap;
+}
+
+.about {
+    transform: translate(-43px, -66px) matrix(1,0,0,1,16.5,606.5) rotate(-90deg);
+    transform-origin: center;
+    left: 35px;
+    top: 70px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    height: 35px;
+    white-space: nowrap;
+}
+
+.home {
+    transform: translate(-43px, -66px) matrix(1,0,0,1,19,754) rotate(-90deg);
+    transform-origin: center;
+    left: 35px;
+    top: 70px;
+    position: absolute;
+    overflow: visible;
+    width: 86px;
+    height: 35px;
+    white-space: nowrap;
+}
+  
+  .nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #8B5958;
+  }
+  
+  .nav-bar li a:hover {
+    background-color: #EDE8E4;
+  }
+
+  .logo {
+    background-image: url(/Assets/Logos/light-logo.png);
+    border-sizing: border-box; 
+    background-size: contain;
+    position: absolute;
+    width: 667px;
+    height: 267px;
+    left: 627px;
+    top: 407px;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    font-size: 2rem;
+    background-image: url(/Assets/Logos/icons8-facebook-100\(1\).png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    left: 1437px;
+    top: 54px;
+}
+
+.pinterest{font-size: 2rem;
+    font-size: 2rem;
+    background-image: url(/Assets/Logos/icons8-pinterest-100\(1\).png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    left: 1675px;
+    top: 54px;
+}
+
+.instagram{
+    font-size: 2rem;
+    background-image: url(/Assets/Logos/icons8-instagram-100\(1\).png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    left: 1516px;
+    top: 54px;
+}
+
+.linkedin{font-size: 2rem;
+    font-size: 2rem;
+    background-image: url(/Assets/Logos/icons8-linkedin-100\(1\).png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    left: 1595px;
+    top: 54px;
+}
+
+.twitter {
+    font-size: 2rem;
+    background-image: url(/Assets/Logos/icons8-twitter-squared-100.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+    left: 1754px;
+    top: 54px;
+}
+
+/* ----- BODY ----- */
+
+body{
+    font-size: 2rem;
+    color: #EDE8E4;
+}
+
+/* GIRL GETTING HAIR CURLED */
+
+.hair-curling-bg {
+    position: relative;
+    top: 200px;
+    height: 621px;
+}
+
+.hair-curling {
+    background-image: url(https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    position: relative;
+    width: 851px;
+    height: 643px;
+    top: -602px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 352px;
+    background-position: center;
+    padding: 0;
+}
+
+/* OUR PROCESS */
+.dye{
+    background-image: url(https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFpciUyMGR5ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
+    min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: auto;
+}
+
+.our-process{
+    color: #242424;
+}
+
+.pink-strip {
+    position: relative;
+    top:-200px;
+    width: 1920px;
+    height: 90px;
+}
+
+/* TESTIMONIAL */
+
+
+/* BLOG */
+
+
+.blog-title{ 
+    text-align: center;
+    /* text-decoration: 1px wavy #EDE8E4;  */
+
+}
+.home-blog{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.home-blog-heading{
+    font-size: 5rem;
+}
+
+.blog-topics{
+    font-size: 1.5rem;
+    color: #242424;
+    font-weight: 500;
+    text-align: center;
+}
+.main-topic{
+    font-family:'Corinthia', cursive;
+    font-size: 3rem;
+}
+
+.blog-para{
+    color: #242424;
+}
+
+.girl-doing-hair{
+    background-image: url(https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    box-sizing: border-box;
+    min-height: 400px;
+    position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wedding-day-style{
+    background-image: url(https://images.unsplash.com/photo-1481068164146-e8beb686f4d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+    box-sizing: border-box;
+    min-height: 400px;
+    position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.cleaning{
+    background-image: url(https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    box-sizing: border-box;
+    min-height: 400px;
+    position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonial p {
+    font-size: 3rem;
+    color: #EDE8E4;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* ----- CONTACT US ----- */
+
+            
+              
+input, textarea {
+    font-family: rubik, sans-serif;
+    border-style: solid;
+    border: 2px solid #8B5958;
+    color: #8B5958;
+    padding: 0.8em;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    vertical-align: top;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    background-color: #8B5958;
+    color: #EDE8E4;
+    /* featured color */
+  }
+  
+  textarea {
+    min-height: 7em;
+  }
+  
+  input[type="submit"] {
+    width: auto;
+    display: block;
+  }
+  
+  form [class*=col-] {
+    padding: 5px;
+  }
+  
+  .email-signup input {
+    width: 30%;
+    display: inline-block;
+    max-width: 250px;
+    margin-top:1rem;
+  }
+  
+  .email-signup .button-solid {
+    padding: 0.8em;
+    border-radius: 0;
+    font-size: 1rem;
+  }
+  form .button {
+    width:100%;
+  }
+    @media(max-width:768px) {
+     .email-signup input {
+       width: 100%;
+       max-width: 100%;
+     }
+   }
+  
+   .contact-footer{
+    font-family: rubik, sans-serif;
+    font-size: 1rem;
+    background-color: #242424;
+   }
+
+   .developer-details{
+    background-color: #8B5958;
+    
+   }
+              
+    .created{
+        font-size: 2rem;
+        font-family: rubik, sans-serif;
+        color: #EDE8E4;
+    }      
+    
+    .daedream-logo{
+        background-image: url(/Assets/Logos/Artboard\ 1\ copy\ 12.png);
+        min-height: 5rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+
+    .copyright{
+        font-size: .8rem;
+        font-family: rubik, sans-serif;
+    } 
