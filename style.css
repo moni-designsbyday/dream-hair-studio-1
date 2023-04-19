@@ -42,7 +42,6 @@ p:last-child {padding-bottom: 0;}
 h3:last-child { padding-bottom: 0;}
 h1:last-child {padding-bottom: 0;}
 h2:last-child {padding-bottom: 0;}
-a:last-child {padding-bottom: 0;}
 
 /* ----- MIN HEIGHT ----- */
 
@@ -92,7 +91,6 @@ p, li, a {
 
 a:hover {
     font-weight: bold;
-    border-bottom: 1px solid #EDE8E4;
 }
 
 .fancy-text {
@@ -103,12 +101,20 @@ a:hover {
 
 .button{
     border: 1px solid #EDE8E4;
-    padding: 1px 2px;
+    padding: .5rem 1rem;
+    position: relative;
+    top: 2rem;
+    padding-bottom: .5rem;
 }
 
 .button:hover{
     font-weight: bold;
     border: 1px solid #EDE8E4;
+}
+
+.line-height-08 {
+    position: relative;
+    top: .8rem;
 }
 
 /* ---------------- IMAGE ---------------- */
@@ -453,35 +459,35 @@ input, textarea {
     margin-top:1rem;
   }
   
-  .email-signup .button-solid {
+  .email-signup .send-solid {
     padding: 0.8em;
     border-radius: 0;
     font-size: 1rem;
   }
-  form .button {
+    form {
     width:100%;
   }
-    @media(max-width:768px) {
-     .email-signup input {
-       width: 100%;
-       max-width: 100%;
-     }
-   }
   
-   .contact-footer{
+    .contact-footer{
     font-family: rubik, sans-serif;
     font-size: 1rem;
-    background-color: #242424;
+    background-color: #8B5958;
+   }
+
+   .send {
+    font-weight: bold;
+    border: 1px solid #EDE8E4;
+    border-radius: 1rem;
+    padding: .5rem, 2rem;
    }
 
    .developer-details{
     background-color: #8B5958;
-    
    }
               
     .created{
         font-size: 2rem;
-        font-family: rubik, sans-serif;
+        font-family: 'rubik', sans-serif;
         color: #EDE8E4;
     }      
     
@@ -496,3 +502,18 @@ input, textarea {
         font-size: .8rem;
         font-family: rubik, sans-serif;
     } 
+
+/* ---------- ABOUT SECTION ---------- */
+
+.about{
+    font-family: 'rubik', sans-serif;
+}
+
+    /* ---------- MEDIA QUERY ---------- */
+
+    @media(max-width:768px) {
+        .email-signup input {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
