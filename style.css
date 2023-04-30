@@ -23,9 +23,12 @@ Corinthia (400)
 
 .padded { padding:5%; }
 .padded-sm { padding: 1rem; }
+.padded-med { padding: 3rem; }
 .padded-lg { padding: 10%;}
 .padded-bottom {padding-bottom: 3rem;}
-
+.padded-top {padding-top: 3rem;}
+.padded-left {padding-left: 3rem;}
+.padded-right {padding-right: 3rem;}
 /* ----- TYPOGRAPHY STYLES ----- */
 
 .font-weight-thin{ font-weight: 200;}
@@ -318,8 +321,7 @@ body{
 .hair-curling {
     background-image: url(https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
     position: relative;
-    width: 851px;
-    height: 643px;
+    height: 650px;
     top: -602px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -329,19 +331,26 @@ body{
 }
 
 /* OUR PROCESS */
-.dye{
-    background-image: url(https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFpciUyMGR5ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
-    height: 600px;
+
+figure{
+    height: 900px;
+    width: 600px;
     background-size: contain;
     background-repeat: no-repeat;
     top: auto;
-    z-index: 9999;
+    
     background-position: right;
+    display: block;
+}
+
+figure image {
+    display: inline-block;
+    width: 10px;
+    height: auto;
 }
 
 .our-process{
     color: #242424;
-    z-index: 9999;
 }
 
 .pink-strip {
@@ -349,10 +358,12 @@ body{
     top:-200px;
     width: 1920px;
     height: 90px;
+    z-index: 2;
 }
 .info-para {
     line-height: 2rem;
     font-size: 1.3rem;
+    z-index: 9999;
 }
 
 /* TESTIMONIAL */
@@ -453,7 +464,6 @@ input, textarea {
     outline: none;
     background-color: #8B5958;
     color: #EDE8E4;
-    /* featured color */
   }
   
   textarea {
@@ -509,7 +519,7 @@ input, textarea {
     }      
     
     .daedream-logo{
-        background-image: url(/Assets/Logos/Artboard\ 1\ copy\ 12.png);
+        background-image: url(/Assets/Logos/Artboard_1_copy_20.png);
         min-height: 5rem;
         background-size: contain;
         background-repeat: no-repeat;
@@ -524,12 +534,41 @@ input, textarea {
 
 .about-heading{
     font-family: 'rubik', sans-serif;
+    font-weight: 200;
+    font-size: 4rem;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    text-align: center;
+}
+
+/* .how-we-began-section {
+    position: absolute;
+} */
+
+.about-h1{
+    font-family: 'Lora', serif;
+}
+
+#hair-studio{
+    font-family: ;
 }
 
 .yellow-strip {
     background-color: #E6C979;
-    height: 144px;
+    height: 50px;
+    /* position: relative; */
+    top: 100px;
 }
+
+.black-footer{
+    background-color: #242424;
+}
+
+.yellow-footer{
+    background-color: #E6C979;
+}
+
 
     /* ---------- MEDIA QUERY ---------- */
 
@@ -538,8 +577,4 @@ input, textarea {
           width: 100%;
           max-width: 100%;
         }
-<<<<<<< Updated upstream
       }
-=======
-      }
->>>>>>> Stashed changes
