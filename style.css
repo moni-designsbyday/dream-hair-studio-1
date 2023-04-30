@@ -4,11 +4,11 @@
     Black- #242424
     Dark Dusty Pink- #8B5958
     Light Dusty Pink- #EDE8E4
- */
+*/
 
- /* Google Font 
+/* Google Font 
  Rubrik (300, 400, 500, 600, 700, 800, 900)
- Corinthia (400) 
+Corinthia (400) 
  */
 
  *{
@@ -373,7 +373,6 @@ body{
 
 /* BLOG */
 
-
 .blog-title{ 
     text-align: center;
     /* text-decoration: 1px wavy #EDE8E4;  */
@@ -539,4 +538,8 @@ input, textarea {
           width: 100%;
           max-width: 100%;
         }
+<<<<<<< Updated upstream
       }
+=======
+      }
+>>>>>>> Stashed changes
