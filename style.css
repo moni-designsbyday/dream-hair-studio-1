@@ -248,7 +248,7 @@ header {
 
 .facebook {
     font-size: 2rem;
-    background-image: url(/Assets/Logos/icons8-facebook-100\(1\).png);
+    background-image: url(/Assets/Logos/facebook.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
@@ -260,7 +260,7 @@ header {
 
 .pinterest{font-size: 2rem;
     font-size: 2rem;
-    background-image: url(/Assets/Logos/icons8-pinterest-100\(1\).png);
+    background-image: url(/Assets/Logos/pinterest.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
@@ -272,7 +272,7 @@ header {
 
 .instagram{
     font-size: 2rem;
-    background-image: url(/Assets/Logos/icons8-instagram-100\(1\).png);
+    background-image: url(/Assets/Logos/instagram.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
@@ -284,7 +284,7 @@ header {
 
 .linkedin{font-size: 2rem;
     font-size: 2rem;
-    background-image: url(/Assets/Logos/icons8-linkedin-100\(1\).png);
+    background-image: url(/Assets/Logos/linkedin.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
@@ -296,7 +296,7 @@ header {
 
 .twitter {
     font-size: 2rem;
-    background-image: url(/Assets/Logos/icons8-twitter-squared-100.png);
+    background-image: url(/Assets/Logos/twitter.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: contain;
