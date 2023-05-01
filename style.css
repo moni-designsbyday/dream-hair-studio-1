@@ -236,7 +236,7 @@ header {
 
   .logo {
     background-image: url(/Assets/Logos/light-logo.png);
-    border-sizing: border-box; 
+    box-sizing: border-box; 
     background-size: contain;
     position: absolute;
     width: 667px;
