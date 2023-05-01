@@ -28,6 +28,7 @@ Corinthia (400)
 .padded-bottom {padding-bottom: 3rem;}
 .padded-top {padding-top: 3rem;}
 .padded-left {padding-left: 3rem;}
+.padded-left-lg {padding-left: 6rem;}
 .padded-right {padding-right: 3rem;}
 
 .relative{ position: relative;}
@@ -176,7 +177,7 @@ header {
     position: absolute;
     overflow: visible;
     width: 158px;
-    height: 35px;
+    height: 2vh;
     white-space: nowrap;
 }
 
@@ -188,7 +189,7 @@ header {
     position: absolute;
     overflow: visible;
     width: 237px;
-    height: 35px;
+    height: 2vh;
     white-space: nowrap;
 }
 
@@ -200,7 +201,7 @@ header {
     position: absolute;
     overflow: visible;
     width: 89px;
-    height: 35px;
+    height: 2vh;
     white-space: nowrap;
 }
 
@@ -212,7 +213,7 @@ header {
     position: absolute;
     overflow: visible;
     width: 86px;
-    height: 35px;
+    height: 2vh;
     text-align: center;
     white-space: nowrap;
 }
@@ -254,7 +255,7 @@ header {
     background-size: contain;
     width: 50px;
     height: 50px;
-    left: 1600px;
+    left: 80vw;
     top: 54px;
 }
 
@@ -266,7 +267,7 @@ header {
     background-size: contain;
     width: 50px;
     height: 50px;
-    left: 1700px;
+    left: 83vw;
     top: 54px;
 }
 
@@ -278,7 +279,7 @@ header {
     background-size: contain;
     width: 50px;
     height: 50px;
-    left: 1650px;
+    left: 86vw;
     top: 54px;
 }
 
@@ -290,7 +291,7 @@ header {
     background-size: contain;
     width: 50px;
     height: 50px;
-    left: 1750px;
+    left: 89vw;
     top: 54px;
 }
 
@@ -302,7 +303,7 @@ header {
     background-size: contain;
     width: 50px;
     height: 50px;
-    left: 1800px;
+    left: 92vw;
     top: 54px;
 }
 
@@ -317,8 +318,8 @@ body{
 
 .hair-curling-bg {
     position: relative;
-    top: 200px;
-    height: 621px;
+    min-height: 621px;
+    margin-top: 200px;
 }
 
 .hair-curling {
@@ -330,19 +331,18 @@ body{
     position: absolute;
     height: 658px;
     top: -173px;
-    left: 543px;
+    left: 440px;
     width: 870px;
 }
 
 /* OUR PROCESS */
 
 figure{
-    height: 900px;
+    height: 770px;
     width: 600px;
     background-size: contain;
     background-repeat: no-repeat;
     top: auto;
-    
     background-position: right;
     display: block;
 }
@@ -358,11 +358,12 @@ figure image {
 }
 
 .pink-strip {
-    position: relative;
-    top:-200px;
-    width: 1920px;
+    position: absolute;
+    top:440px;
+    width: 100vw;
     height: 90px;
-    z-index: 2;
+    z-index: -1;
+    left: 0;
 }
 .info-para {
     line-height: 2rem;
@@ -458,7 +459,7 @@ input, textarea {
     color: #8B5958;
     padding: 0.8em;
     display: block;
-    width: 100%;
+    width: 17vw;
     font-size: 1rem;
     vertical-align: top;
   }
@@ -475,7 +476,7 @@ input, textarea {
   }
   
   input[type="submit"] {
-    width: auto;
+    width: 6vw;
     display: block;
   }
   
@@ -486,7 +487,7 @@ input, textarea {
   .email-signup input {
     width: 30%;
     display: inline-block;
-    max-width: 250px;
+    max-width: 18vw;
     margin-top:1rem;
   }
   
@@ -496,7 +497,7 @@ input, textarea {
     font-size: 1rem;
   }
     form {
-    width:100%;
+    width:30vw;
   }
   
     .contact-footer{
@@ -578,7 +579,7 @@ input, textarea {
 
     @media(max-width:768px) {
         .email-signup input {
-          width: 100%;
-          max-width: 100%;
+          width: 100vw;
+          max-width: 100vw;
         }
       }
