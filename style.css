@@ -29,6 +29,9 @@ Corinthia (400)
 .padded-top {padding-top: 3rem;}
 .padded-left {padding-left: 3rem;}
 .padded-right {padding-right: 3rem;}
+
+.relative{ position: relative;}
+
 /* ----- TYPOGRAPHY STYLES ----- */
 
 .font-weight-thin{ font-weight: 200;}
@@ -320,14 +323,15 @@ body{
 
 .hair-curling {
     background-image: url(https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
-    position: relative;
-    height: 650px;
-    top: -602px;
     background-repeat: no-repeat;
     background-size: contain;
-    left: 352px;
     background-position: center;
     padding: 0;
+    position: absolute;
+    height: 658px;
+    top: -173px;
+    left: 543px;
+    width: 870px;
 }
 
 /* OUR PROCESS */
